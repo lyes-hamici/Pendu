@@ -74,6 +74,7 @@ def ajout_mots(liste_mots):
                     lettre = chr(event.key)
                     ajout_mot += lettre
 
+        afficher_texte("N'utiliser pas de caractère spéciaux.",100,100)
         afficher_texte("Appuyez sur Echap pour revenir sur l'ecran d'aceuill", 100, 600)
         afficher_texte("La touche 'Entrer' valide vôtre choix :", 100, 200)
         afficher_texte(f"Nouveau mot : {unidecode.unidecode(ajout_mot)}", 100, 150)  
